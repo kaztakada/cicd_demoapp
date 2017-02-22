@@ -1,5 +1,4 @@
-
-rt demoapp
+import demoapp
 import unittest
 
 
