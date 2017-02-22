@@ -11,8 +11,8 @@ build:
 
 publish:
     docker:
-        repo: kaztakada/cicd_demoapp
+        repo: $$kaztakada/cicd_demoapp
         tag: latest
-        username: kaztakada
-        password: SR20dett1
-        email: ktakada@cisco.com 
+        username: $$kaztakada
+        password: $$SR20dett1
+        email: $$ktakada@cisco.com 
