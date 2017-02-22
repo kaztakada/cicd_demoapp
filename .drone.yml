@@ -27,3 +27,9 @@ deploy:
             password: CICD1
         urls:
             - https://control.sandbox.imapex.io/marathon/v2/apps/class/kaztakada/restart?force=true
+
+notify:
+    spark:
+        image: hpreston/drone-spark
+        auth_token: MjIyMjU5MDItZjE0Ni00MzljLWFmMTMtMmY0YTg2NDRiMmE1MDEwMTQ0YzUtYTY4
+        roomId: Y2lzY29zcGFyazovL3VzL1JPT00vYTNhNjA4YjAtZjQyYS0xMWU2LWEwMDItMWY2MWUxNDU5ZTcy
